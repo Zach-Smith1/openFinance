@@ -1,0 +1,466 @@
+.active {
+  border-bottom: 2px solid whitesmoke;
+}
+#appNav {
+  text-align: center;
+  font-family: "Raleway", sans-serif
+}
+#appNav {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: xxx-large;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+#appNav span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.222;
+}
+#appNav {
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#appNav:before {
+  width: 36%;
+  height: 2px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 33%;
+  margin-left: -16px;
+  background-color: #2200b8;
+}
+#appNav:after {
+  width: 37%;
+  height: 2px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 33%;
+  margin-left: -50px;
+  background-color: #2200b8;
+}
+body {
+  background-color: white;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-image: none;
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 15em;
+  cursor: pointer;
+  margin: 2%;
+  flex: 1 1 auto;
+  padding: 15px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 1px 1px 1px rgba(1,0,0,.8);
+}
+button:hover {
+  background-position: right center;
+}
+#clearButtonContainer {
+  display: block;
+  text-align: right;
+}
+#clearButton {
+  background-image: linear-gradient(to left, #b92323 0%, #e00101 100%);
+  margin-right: 5%;
+  width: auto;
+  padding: 1%;
+}
+#clearButton:hover {
+  color: white;
+}
+#chaIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 80px;
+}
+.CCPage {
+  padding: 10%;
+}
+.drag-drop-input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-self: center;
+  width: 40vw;
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 1em;
+  border-width: 11px;
+  border-style: solid;
+  border-color: #424242;
+  position: relative;
+  transition-duration: .75s;
+  text-align: center;
+  padding: 20% 5% 20%;
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  border-color: #7c7c7c;
+  background: linear-gradient(to bottom, grey 0%, silver 25%, rgb(235, 235, 235) 49%, rgb(0, 152, 0) 61%, rgb(0, 175, 38) 75%, rgb(0, 141, 30) 100%);
+  background-size: auto 199%;
+  background-position: top;
+  border-radius: 5px;
+}
+.drag-drop-input:hover {
+  background-position: bottom;
+  border-color: rgb(0, 141, 30);
+  border-radius: 12em;
+  border-width: 11px;
+  border-style: solid;
+  color: #ffffff; /* Fallback for older browsers */
+  cursor: pointer;
+}
+#csvIcon {
+  position: absolute;
+  left: 4.5vw;
+  bottom: 3.5vw;
+  width: 3em;
+  height: 3em;
+  opacity: 0.2;
+  transform: rotate(325deg);
+}
+#downloadButtonDiv {
+  grid-row: 3;
+  grid-column: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+#downloadButton {
+  box-shadow: 2px 2px 2px rgba(1,0,0,.8);
+  background-color: rgb(4, 127, 4);
+  color: whitesmoke;
+}
+#downloadButton:hover {
+  background-color: rgb(0, 152, 0);
+  box-shadow: 1px 1px 1px rgba(1,0,0,.1);
+  color: white;
+}
+.filterButtons {
+  text-align: center;
+}
+#faqHeader {
+  grid-column: 1 / 3;
+  padding: 2%;
+}
+.faqInfo {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  overflow-y: scroll;
+  max-height: 50vh;
+  border-color: black;
+  border-radius: 2px;
+  border-style: solid;
+  width: 70vw;
+}
+.faqLinks {
+  grid-column: 1;
+  font-size: larger;
+}
+.FAQPage {
+  /* display: grid;
+  grid-template-columns: 1fr 4fr; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fullCodes {
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+#fpTimeline {
+  width: 40vw;
+  transition-duration: 1s;
+}
+#fpTimeline:hover {
+  width: 90vw;
+  z-index: 100;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 10% 35% 30%;
+  gap: 1.3%;
+  top: 1px;
+  width: 100vw;
+  height: 100vh;
+}
+#homepagenav {
+  margin-top: 20px;
+  font-size: xxx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+#ILButton {
+  background-color: #5c77b6;
+}
+#ILButton:hover {
+  color: white;
+  background-color: #264ba2;
+  box-shadow: 0 0 6px rgba(172, 172, 172, 0.5);
+}
+.ILPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+input {
+  text-align: center;
+  margin: 2%;
+  padding: 1.5px;
+  width: 133px;
+}
+.inputButton {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  cursor: pointer;
+}
+#labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  font-family: sans-serif;
+  max-height: 150px;
+}
+#lcsIcon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 80px;
+}
+li {
+  margin: 2%;
+}
+.linkList {
+  font-size: medium;
+}
+.matchingProject {
+  position: absolute;
+  right: 15%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.nav-item {
+  cursor: pointer;
+  padding: 8px;
+}
+.nav-item:hover {
+  box-shadow: 0 0 6px rgba(172, 172, 172, 0.5);
+}
+p {
+  text-align: left;
+  width: 80%;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1%;
+}
+.PIPage {
+  height: 133vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.record {
+  margin: 1%;
+  font-size: small;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  white-space: wrap;
+  width: 14vw;
+  list-style-type: disclosure-closed;
+}
+.searchInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: medium;
+}
+.segment {
+  max-width: 10vw;
+  text-align: center;
+  font-size: small;
+}
+.selected {
+  background-image: linear-gradient(to left, #2e7fc1 0%, #1c3e8b 59%, #0191bd 100%);
+  color: white;
+}
+.select-wheel {
+  width: 11vw;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: wrap;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 25vh;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.select-wheel li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffefd9;
+  transition: background-color 0.3s ease;
+  font-size: small;
+}
+.select-wheel li:hover {
+  background-color: #f2d797;
+}
+.selected#CHA {
+  background-image: linear-gradient(to left, #da851d 0%, #ea7522 59%, #dd9016 100%);
+}
+.showProjects {
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 25vh;
+  overflow-y: scroll;
+}
+.strings {
+  font-size: large;
+  background-color: yellow;
+}
+#uploadIcon {
+  width: 5em;
+  height: 5em;
+  opacity: 0.2;
+}
+#xlsxIcon {
+  position: absolute;
+  right: 4.5vw;
+  bottom: 3.5vw;
+  width: 3em;
+  height: 3em;
+  opacity: 0.2;
+  transform: rotate(40deg);
+}
+
+@media screen and (max-width: 1100px), (max-height: 650px) {
+  #appNav {
+    font-size: xx-large;
+  }
+  #appNav:after {
+    width: 0%;
+  }
+  #appNav:before {
+    width: 0%;
+  }
+  #chaIcon {
+    height: 50px;
+  }
+  .checks {
+    margin-bottom: 2em;
+  }
+  #csvIcon {
+    left: 6vw;
+    bottom: 7vw;
+    width: 2em;
+    height: 2em;
+  }
+  .drag-drop-input {
+    margin-top: 5%;
+  }
+  .fullCodes {
+    position: relative;
+    top: auto;
+    left: 10px;
+  }
+  .grid {
+    display: flex;
+    /* Switch to Flexbox on mobile */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+  }
+  #homepagenav {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+  }
+  input {
+    margin: 4%;
+    width: 150px;
+  }
+  #labels {
+    display: none;
+  }
+  #lcsIcon {
+    height: 50px;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .segment {
+    margin-top: 25px;
+  }
+  .select-wheel {
+    width: fit-content;
+  }
+  .showProjects {
+    right: 33%
+  }
+  #xlsxIcon {
+    right: 6vw;
+    bottom: 7vw;
+    width: 2em;
+    height: 2em;
+  }
+}
