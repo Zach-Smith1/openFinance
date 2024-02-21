@@ -7,9 +7,12 @@ const PI = () => {
 
   return (
     <div className='PIPage'>
-      <img id="fpTimeline" src="../public/FPTimeline.jpg" alt="timeline"/>
-      <iframe src="../public/GLRedesignProject.pdf" title="General Ledger Redesign" width="100%" height="100%"></iframe>
-
+      <span>Click on Workplan to open Full GL Redesign PDF</span>
+      <img
+      id="fpTimeline"
+      src="../public/FPTimeline.jpg"
+      onClick={() =>  window.open("../public/GLRedesignProject.pdf", '_blank')}
+      alt="timeline"/>
     </div>
   );
 }

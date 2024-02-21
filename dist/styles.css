@@ -49,6 +49,9 @@
   margin-left: -50px;
   background-color: #2200b8;
 }
+.BankPage {
+  text-align: center;
+}
 body {
   background-color: white;
   margin: 0px;
@@ -91,6 +94,8 @@ button:hover {
 }
 .CCPage {
   padding: 10%;
+  padding-top: 3%;
+  text-align: center;
 }
 .drag-drop-input {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -125,6 +130,24 @@ button:hover {
   border-style: solid;
   color: #ffffff; /* Fallback for older browsers */
   cursor: pointer;
+}
+.dropChoice {
+  /* background-color: wheat; */
+  color: white;
+  font-size: medium;
+}
+.dropChoice:hover {
+  font-style: italic;
+}
+.dropdown-menu {
+  margin-top: 10px;
+  margin-left: -28px;
+  position: absolute;
+  width: auto;
+  color: black;
+  background-color: #333;
+  padding: 8px;
+  padding-top: 10px;
 }
 #csvIcon {
   position: absolute;
@@ -172,9 +195,26 @@ button:hover {
   border-style: solid;
   width: 70vw;
 }
-.faqLinks {
-  grid-column: 1;
-  font-size: larger;
+.CClinks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.thumbLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition-duration: .25s;
+  color: rgba(255, 255, 255, 0);
+  font-size: small;
+  border: 10px solid #ccc;
+}
+.thumbLink:hover {
+  color: black;
 }
 .FAQPage {
   /* display: grid;
@@ -189,12 +229,8 @@ button:hover {
   left: 50px;
 }
 #fpTimeline {
-  width: 40vw;
-  transition-duration: 1s;
-}
-#fpTimeline:hover {
-  width: 90vw;
-  z-index: 100;
+  width: 75vw;
+  cursor: pointer;
 }
 .grid {
   display: grid;
@@ -296,7 +332,7 @@ p {
   margin-top: 1%;
 }
 .PIPage {
-  height: 133vh;
+  /* height: 133vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
