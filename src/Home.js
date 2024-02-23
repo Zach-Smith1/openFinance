@@ -24,7 +24,7 @@ const Home = () => {
       <img id="chaIcon" src="../public/CHA.png" alt="cha icon" />
       <div className="navbar">
         {allTabs.map((t) => (
-          t === 'Projects' ?
+          t === 'Projects' ? // special dropdown conditions for Projects Tab
           <div
             key={t}
             onMouseEnter={() => setIsDropdownOpen(true)}
@@ -39,7 +39,7 @@ const Home = () => {
               </div>
             )}
           </div>
-          : <div
+          : <div // normal tabs
           key={t}
           className={`nav-item ${tab === t ? 'active' : ''}`}
           onClick={() => changeTab(t)}
