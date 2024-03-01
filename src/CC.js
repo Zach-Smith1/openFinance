@@ -23,7 +23,8 @@ const CC = () => {
           Travel and Expense Policy</div>
           <div className='thumbLink'>
         <video width="300" height="240" controls>
-          <source src="../public/ConcurTownHall.mp4" type="video/mp4" />
+          {/* <source src="../public/ConcurTownHall.mp4" type="video/mp4" /> */}
+          <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/ConcurTownHall.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
           Concur Town Hall</div>
@@ -49,7 +50,8 @@ const CC = () => {
         </div>
         <div className='thumbLink'>
         <video width="300" height="240" controls>
-          <source src="../public/KeyBankActivationVideo.mp4" type="video/mp4" />
+          {/* <source src="../public/KeyBankActivationVideo.mp4" type="video/mp4" /> */}
+          <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/KeyBankActivationVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
           KeyBank Activation Walkthrough</div>
@@ -66,7 +68,8 @@ const CC = () => {
           QuickStart Concur Guide</div>
           <div className='thumbLink'>
           <video width="300" height="240" controls>
-          <source src="../public/ConcurMFAInstructions.mp4" type="video/mp4" />
+          {/* <source src="../public/ConcurMFAInstructions.mp4" type="video/mp4" /> */}
+          <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/ConcurMFAInstructions.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
           Concur Setup Walkthrough</div>
