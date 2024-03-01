@@ -93,7 +93,6 @@ button:hover {
   height: 80px;
 }
 .CCPage {
-  padding: 10%;
   padding-top: 3%;
   text-align: center;
 }
@@ -134,7 +133,7 @@ button:hover {
 .dropChoice {
   /* background-color: wheat; */
   color: white;
-  font-size: medium;
+  font-size: large;
 }
 .dropChoice:hover {
   font-style: italic;
@@ -217,8 +216,6 @@ button:hover {
   color: black;
 }
 .FAQPage {
-  /* display: grid;
-  grid-template-columns: 1fr 4fr; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,7 +227,6 @@ button:hover {
 }
 #fpTimeline {
   width: 75vw;
-  cursor: pointer;
 }
 .grid {
   display: grid;
@@ -425,7 +421,7 @@ p {
   transform: rotate(40deg);
 }
 
-@media screen and (max-width: 1100px), (max-height: 650px) {
+@media screen and (max-width: 1000px) {
   #appNav {
     font-size: xx-large;
   }

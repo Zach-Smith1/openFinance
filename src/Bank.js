@@ -7,9 +7,7 @@ const Bank = () => {
 
   return (
     <div className='BankPage'>
-      <h1>Nothing to see here yet. Check back shortly for useful banking info!</h1>
-      <p>
-      </p>
+      <iframe src="../public/BankingPlans.pdf" width="100%" height='900px'></iframe>
     </div>
   );
 }

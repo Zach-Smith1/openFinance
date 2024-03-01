@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const PI = () => {
+const GLR = () => {
   useEffect(() => {
 
   }, []);
@@ -9,10 +9,11 @@ const PI = () => {
     <div className='PIPage'>
       <img
       id="fpTimeline"
-      src="../public/FPTimeline.jpg"
+      src="../public/MIPMIGGLR.jpg"
       alt="timeline"/>
+      <iframe src="../public/GLRedesignProject.pdf" width="100%" height='900px'></iframe>
     </div>
   );
 }
 
-export default PI;
+export default GLR;
