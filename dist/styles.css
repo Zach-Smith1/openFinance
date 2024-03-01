@@ -188,11 +188,11 @@ button:hover {
   text-align: center;
   align-items: center;
   overflow-y: scroll;
-  max-height: 50vh;
+  max-height: 60vh;
   border-color: black;
   border-radius: 2px;
   border-style: solid;
-  width: 70vw;
+  width: 85vw;
 }
 .CClinks {
   width: 100%;
