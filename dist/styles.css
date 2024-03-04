@@ -73,6 +73,13 @@ button {
 button:hover {
   background-position: right center;
 }
+.CClinks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 #clearButtonContainer {
   display: block;
   text-align: right;
@@ -194,14 +201,14 @@ button:hover {
   border-style: solid;
   width: 85vw;
 }
-.CClinks {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
 .thumbLink {
+  font-family: auto;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,7 +220,28 @@ button:hover {
   border: 10px solid #ccc;
 }
 .thumbLink:hover {
+  background-color: #ccc;
   color: black;
+  border-radius: 20px;
+}
+.thumbLink:hover .overlay {
+  opacity: 1; /* Show text on hover */
+}
+.thumbLink:hover img {
+  opacity: 0; /* Fade image away */
+  transition: 0.3s;
+}
+.thumbLink .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s;
 }
 .FAQPage {
   display: flex;
@@ -412,7 +440,16 @@ p {
   opacity: 0.2;
 }
 #video {
+  font-size: larger;
+  padding: 1%;
   color: black;
+}
+#video:hover {
+  font-size: x-large;
+  border-radius: 2%;
+  color: white;
+  font-weight: bold;
+  margin-bottom: -2px;
 }
 #xlsxIcon {
   position: absolute;
