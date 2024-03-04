@@ -49,7 +49,9 @@ Under Expense Settings, select Expense Delegates link to add your delegate<br/><
           <strong>Q: Are you able to upload multiple documents to support an expense?</strong><br/>
           A: Yes<br/><br/>
           <strong>Q: Are you able to restrict GL coding combinations entered (Program, RevSource, Area)? </strong><br/>
-          A: Not currently, but we are investigating ways to enhance the system to minimize coding errors.<br/>
+          A: Not currently, but we are investigating ways to enhance the system to minimize coding errors.<br/><br/>
+          <strong>Q: Will the last four digits of my employee ID work for my District Purchasing Card?</strong><br/>
+          A: No. Check your email with separate credentials instructions. If you need a reminder of your credentials, please send a request to expenses@lcsnw.org<br/>
 {/*
           <strong>Q: How do I submit out of pocket costs?</strong><br/>
           <strong>Q: How do I code an invoice?</strong><br/>

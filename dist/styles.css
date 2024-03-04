@@ -411,6 +411,9 @@ p {
   height: 5em;
   opacity: 0.2;
 }
+#video {
+  color: black;
+}
 #xlsxIcon {
   position: absolute;
   right: 4.5vw;

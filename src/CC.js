@@ -21,13 +21,14 @@ const CC = () => {
             style={{ cursor: 'pointer', width: '300px' }}
           /><br />
           Travel and Expense Policy</div>
-          <div className='thumbLink'>
+          <div className='thumbLink' id='video'>
+          Concur Town Hall Video
         <video width="300" height="240" controls>
           {/* <source src="../public/ConcurTownHall.mp4" type="video/mp4" /> */}
           <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/ConcurTownHall.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
-          Concur Town Hall</div>
+          </div>
           <div className='thumbLink'>
           <img
             src="../public/thumbs/ConcurTownThumb.jpg"
@@ -48,13 +49,14 @@ const CC = () => {
           <br />
           Key Bank Commercial Card Activation Instructions
         </div>
-        <div className='thumbLink'>
+        <div className='thumbLink' id='video'>
+        KeyBank Card Activation Video
         <video width="300" height="240" controls>
           {/* <source src="../public/KeyBankActivationVideo.mp4" type="video/mp4" /> */}
           <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/KeyBankActivationVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
-          KeyBank Activation Walkthrough</div>
+         </div>
       </div>
       <h2>Sap Concur Expense</h2>
       <div className='CClinks'>
@@ -66,13 +68,14 @@ const CC = () => {
             style={{ cursor: 'pointer', width: '300px' }}
           /><br />
           QuickStart Concur Guide</div>
-          <div className='thumbLink'>
+          <div className='thumbLink' id='video'>
+          Sign into Concur with Two-Factor Authentication Video
           <video width="300" height="240" controls>
           {/* <source src="../public/ConcurMFAInstructions.mp4" type="video/mp4" /> */}
           <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/ConcurMFAInstructions.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
-          Concur Setup Walkthrough</div>
+          </div>
         <div className='thumbLink'>
           <img
             src="../public/thumbs/concur.jpg"
@@ -88,5 +91,5 @@ const CC = () => {
     </div>
   );
 }
-
+//  and "" ""
 export default CC;
