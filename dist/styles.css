@@ -37,6 +37,7 @@
   left: 33%;
   margin-left: -16px;
   background-color: #2200b8;
+  z-index: -1;
 }
 #appNav:after {
   width: 37%;
@@ -48,6 +49,7 @@
   left: 33%;
   margin-left: -50px;
   background-color: #2200b8;
+  z-index: -1;
 }
 .BankPage {
   text-align: center;
@@ -154,6 +156,7 @@ button:hover {
   background-color: #333;
   padding: 8px;
   padding-top: 10px;
+  z-index: 1000;
 }
 #csvIcon {
   position: absolute;
