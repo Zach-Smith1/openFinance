@@ -1,4 +1,5 @@
 .active {
+  color: #0cc0b4;
   border-bottom: 2px solid whitesmoke;
 }
 #appNav {
@@ -238,6 +239,11 @@ h2 {
   margin-bottom: 15px;
   text-decoration: underline;
 }
+h3 {
+  padding: 8px;
+  font-size: larger;
+  background-color: #0cc0b4;
+}
 #homepagenav {
   margin-top: 20px;
   font-size: xxx-large;
@@ -314,6 +320,12 @@ li {
 .nav-item {
   cursor: pointer;
   padding: 8px;
+  border-left: white;
+  border-right: white;
+  border-top: #333;
+  border-bottom: #333;
+  border-style: solid;
+  border-width: 1px;
 }
 .nav-item:hover {
   box-shadow: 0 0 6px rgba(172, 172, 172, 0.5);
