@@ -59,6 +59,13 @@ body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
+#bold{
+  font-size: larger;
+  margin-bottom: 10px;
+}
+#blue{
+  color: #2200b8;
+}
 button {
   background-image: none;
   background-color: gray;
@@ -204,48 +211,6 @@ button:hover {
   border-style: solid;
   width: 85vw;
 }
-h2 {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  text-decoration: underline;
-}
-.thumbLink {
-  font-family: auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  transition-duration: .25s;
-  color: rgba(255, 255, 255, 0);
-  font-size: small;
-  border: 10px solid #ccc;
-}
-.thumbLink:hover {
-  background-color: #ccc;
-  color: black;
-  border-radius: 20px;
-}
-.thumbLink:hover .overlay {
-  opacity: 1; /* Show text on hover */
-}
-.thumbLink:hover img {
-  opacity: 0; /* Fade image away */
-  transition: 0.3s;
-}
-.thumbLink .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  opacity: 0;
-  transition: 0.2s;
-}
 .FAQPage {
   display: flex;
   flex-direction: column;
@@ -267,6 +232,11 @@ h2 {
   top: 1px;
   width: 100vw;
   height: 100vh;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
 #homepagenav {
   margin-top: 20px;
@@ -348,6 +318,22 @@ li {
 .nav-item:hover {
   box-shadow: 0 0 6px rgba(172, 172, 172, 0.5);
 }
+#note {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20vw;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border: 1px solid #000000;
+  font-size: small;
+}
+.noteContainer{
+  position: relative;
+  bottom: 50px;
+  margin-right: 25px;
+  padding: 20px;
+}
 p {
   text-align: left;
   width: 80%;
@@ -392,7 +378,7 @@ p {
   color: white;
 }
 .select-wheel {
-  width: 11vw;
+  width: 100%;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -436,6 +422,43 @@ p {
 .strings {
   font-size: large;
   background-color: yellow;
+}
+.thumbLink {
+  font-family: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition-duration: .25s;
+  color: rgba(255, 255, 255, 0);
+  font-size: small;
+  border: 10px solid #ccc;
+}
+.thumbLink:hover {
+  background-color: #ccc;
+  color: black;
+  border-radius: 20px;
+}
+.thumbLink:hover .overlay {
+  opacity: 1; /* Show text on hover */
+}
+.thumbLink:hover img {
+  opacity: 0; /* Fade image away */
+  transition: 0.3s;
+}
+.thumbLink .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s;
 }
 #uploadIcon {
   width: 5em;
@@ -516,6 +539,9 @@ p {
   }
   #lcsIcon {
     height: 50px;
+  }
+  #note{
+    display: none;
   }
   .page {
     display: flex;

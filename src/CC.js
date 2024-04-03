@@ -12,6 +12,7 @@ const CC = () => {
 
   return (
     <div className='CCPage'>
+      <h3>Travel and Expense Onboarding</h3>
       <div className='CClinks'>
         <div className='thumbLink'>
           <div className='overlay'>Travel and Expense Policy</div>
@@ -40,7 +41,7 @@ const CC = () => {
           />
           </div>
       </div>
-      <h2>Bank Mastercard</h2><br />
+      <h3>KeyBank Mastercard Activation</h3><br />
       <div className='CClinks'>
         <div className='thumbLink'>
         <div className='overlay'>Key Bank Commercial Card Activation Instructions</div>
@@ -53,14 +54,14 @@ const CC = () => {
         </div>
         <div className='thumbLink' id='video'>
         KeyBank Card Activation Video
-        <video width="300" height="240" controls>
+        <video width="200" height="180" controls>
           {/* <source src="../public/KeyBankActivationVideo.mp4" type="video/mp4" /> */}
           <source src="https://github.com/Zach-Smith1/openFinance/raw/main/public/KeyBankActivationVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video><br />
          </div>
       </div>
-      <h2>Sap Concur Expense</h2>
+      <h3>Sap Concur Expense</h3>
       <div className='CClinks'>
         <div className='thumbLink'>
         <div className='overlay'>QuickStart Concur Guide</div>
@@ -88,7 +89,7 @@ const CC = () => {
             style={{ cursor: 'pointer', width: '300px' }}
           />
         </div>
-        <div><br />Note: To open links in a new tab in the PDF below, hold down the Command key on Mac or the Ctrl key on Windows when clicking links</div>
+        <div id='bold'><br /><strong>Note: To open <span id='blue'>links</span> in a new tab in the PDF below, hold down the Command key on Mac or the Ctrl key on Windows when clicking <span id='blue'>links</span></strong></div><br/><br/>
         <iframe id='pdf' src="../public/SAPConcurQuickStartChecklist.pdf" width="100%" height='800px'></iframe>
       </div>
     </div>

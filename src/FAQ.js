@@ -10,9 +10,16 @@ const FAQ = () => {
       <div id='faqHeader'>
         {/* <h1>Frequently Asked Questions<br /></h1> */}
       </div>
+      <h2>Concur Frequently Asked Questions</h2>
+      <p>&emsp;&emsp;&emsp;&emsp;<strong>Q: When is my March expense report due?</strong><br/>
+      &emsp;&emsp;&emsp;&emsp;A: </p><br />
+        <img
+      id="fpTimeline"
+      src="../public/thumbs/FAQTime.jpg"
+      alt="timeline"/>
+      <br/><br/>
       <div className='faqInfo'>
         {/* <h1>FAQ</h1> */}
-        <h2>Concur Frequently Asked Questions</h2>
         <p>
           <strong>Q: What are some advantages of switching to KeyBank and the Concur expense management system?</strong><br />
           A: The KeyBank corporate card program adds value to LCSNW, as part of our overall banking partner conversion.  Concur Expense is a modern online workflow system with direct automated feed of agency credit card transactions, flexibility to pay out of pocket reimbursements twice a month and 24/7 support desk resources.<br /><br />
@@ -65,6 +72,7 @@ const FAQ = () => {
           <strong>Q: Am I able to manage my individual expense reports and transactions I made on a District Purchasing Card with the same Concur login?</strong><br />
           A: Yes. Use your profile icon in the top right corner of your home page and select “Act as Another User” to switch between the radial button of “Myself” or “As a delegate for other users” <br />
         </p>
+        <br/><br/>
       </div>
     </div>
   );
