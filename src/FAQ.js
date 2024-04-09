@@ -11,7 +11,7 @@ const FAQ = () => {
         {/* <h1>Frequently Asked Questions<br /></h1> */}
       </div>
       <h2>Concur Frequently Asked Questions</h2>
-      <p>&emsp;&emsp;&emsp;&emsp;<strong>Q: When is my March expense report due?</strong><br/>
+      <p>&emsp;&emsp;&emsp;&emsp;<strong>Q: When is my April expense report due?</strong><br/>
       &emsp;&emsp;&emsp;&emsp;A: </p><br />
         <img
       id="fpTimeline"
