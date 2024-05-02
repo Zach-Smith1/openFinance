@@ -6,7 +6,7 @@ import GLR from "./GLR.js";
 import Bank from "./Bank.js";
 
 const Home = () => {
-  const [tab, setTab] = useState('Cards & Concur')
+  const [tab, setTab] = useState('FAQ')
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {

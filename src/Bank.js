@@ -7,7 +7,7 @@ const Bank = () => {
 
   return (
     <div className='BankPage'>
-      <iframe src="../public/BankingPlans.pdf" width="100%" height='900px'></iframe>
+      <iframe src="../public/Banking-Status4_24.pdf" width="100%" height='900px'></iframe>
     </div>
   );
 }

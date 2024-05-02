@@ -7,11 +7,11 @@ const GLR = () => {
 
   return (
     <div className='PIPage'>
-      <img
+      {/* <img
       id="fpTimeline"
       src="../public/MIPMIGGLR.jpg"
-      alt="timeline"/>
-      <iframe src="../public/GLRedesignProject.pdf" width="100%" height='900px'></iframe>
+      alt="timeline"/> */}
+      <iframe src="../public/MIPGL-Status4_24.pdf" width="100%" height='900px'></iframe>
     </div>
   );
 }

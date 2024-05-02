@@ -262,7 +262,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 input {
   text-align: center;
@@ -357,11 +357,10 @@ p {
   margin-top: 1%;
 }
 .PIPage {
-  /* height: 133vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .record {
   margin: 1%;

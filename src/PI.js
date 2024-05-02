@@ -7,10 +7,11 @@ const PI = () => {
 
   return (
     <div className='PIPage'>
-      <img
+      {/* <img
       id="fpTimeline"
       src="../public/FPTimeline.jpg"
-      alt="timeline"/>
+      alt="timeline"/> */}
+      <iframe src="../public/FinanceProjectsWorkplan4_30.pdf" width="100%" height='900px'></iframe>
     </div>
   );
 }
